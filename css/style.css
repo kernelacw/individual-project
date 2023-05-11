@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Montez', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #E2F5FF;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.main_content{
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+.main{
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+button:hover{
+    background-color: rgb(48, 86, 156);
+}
+button:active{
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+    background-color: rgb(29, 53, 96);
+}
+
+/* header */
+.header{
+    padding-top: 50px;
+    padding-left: 323px;
+    padding-right: 323px;
+}
+.header_items{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo a{
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    color: #0066FF;
+}
+.header_navbar{
+    display: flex;
+    gap: 35px;
+}
+.header_navbar a:hover{
+    color: #0066FF;
+}
+/* header  end*/
+
+/* tagline */
+.tagline{
+    padding-top: 169px;
+    padding-left: 323px;
+    padding-right: 323px;
+}
+.tagline_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tagline_title{
+    font-family: 'Montez', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.tagline_subtitle{
+    color: #45556F;
+}
+.tagline_buttons{
+    display: flex;
+    padding-top: 50px;
+    gap: 40px;
+}
+.tagline_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0066FF;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* tagline end */
+
+/* advantages */
+.advantages{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 323px;
+    padding-right: 323px;
+}
+.advantages_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.advantages_title{
+    font-family: 'Montez', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.advantages_subtitle a{
+    color: #45556F;
+}
+.advantages_cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.advantages_card{
+    display: flex;
+    width: 200px;
+    height: 220px;
+    background-color: #E9F7FF;
+    border-radius: 15px;
+    align-items: center;
+    border: solid 1px #0066ff00
+}
+.advantages_card:hover{
+    background: rgba(237, 250, 255, 0.2);
+    transition: ease-in-out 0.1s;
+    box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.25);
+}
+.advantages_card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.advantages_card_subtitle{
+    font-size: 15px;
+    color: #45556F;
+    font-weight: 300;
+}
+.ac2{
+    width: 190px;
+}
+.ac3{
+    width: 208px;
+}
+.ac4{
+    width: 234px;
+}
+.ac5{
+    width: 190px;
+}
+/* advantages end */
+
+/* geolocation */
+.geolocation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #BFD8E7;
+    padding-left: 323px;
+    padding-right: 323px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.geolocation_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.geolocation_title{
+    font-family: 'Montez', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.geolocation_subtitle{
+    color: #45556F;
+}
+.geolocation_map{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.geolocation_map_title{
+    width: 429px;
+    height: 247px;
+    background: url(../img/map.png);
+    border-radius: 15px;
+    border: solid 1px #0066FF;
+    box-shadow: 4px 7px 26px 4px rgba(0, 0, 0, 0.25);
+}
+.geolocation_map_subtitle{
+    color: #45556F;
+}
+/* geolocation end */
+
+.image{
+    height: 302px;
+    background: url(../img/phone.png) no-repeat center;
+    background-size: cover;
+}
+
+/* speciality */
+.speciality{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 323px;
+    padding-right: 323px;
+}
+.speciality_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.speciality_title{
+    font-family: 'Montez', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.speciality_subtitle a{
+    color: #45556F;
+}
+.speciality_cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.speciality_card{
+    display: flex;
+    width: 200px;
+    height: 220px;
+    background-color: #E9F7FF;
+    border-radius: 15px;
+    align-items: center;
+}
+.speciality_card:hover{
+    background: rgba(237, 250, 255, 0.2);
+    transition: ease-in-out 0.1s;
+    box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.25);
+}
+.speciality_card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.speciality_card_subtitle{
+    font-size: 15px;
+    color: #45556F;
+    font-weight: 300;
+}
+.spec1{
+    width: 243px;
+}
+.spec2{
+    width: 237px;
+}
+.spec3{
+    width: 241px;
+}
+.spec4{
+    width: 234px;
+}
+.spec5{
+    width: 190px;
+}
+/* speciality end */
+
+/* hobby */
+.hobby{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
+    padding-left: 219px;
+    padding-right: 219px;
+}
+.hobby_items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.hobby_title{
+    font-family: 'Montez', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.hobby_subtitle a{
+    color: #45556F;
+}
+.hobby_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 176px;
+    width: 218px;
+}
+.hobby_card_img{
+    width: 50px;
+    height: 50px;
+}
+.hobby_card_title{
+    padding-top: 10px;   
+}
+.hobby_card:hover{
+    color: #0066FF;
+}
+.hobby_card_subtitle{
+    color: #45556F;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.hobby_card_link a{
+    color: #9CB4DB;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.pdlink{
+    padding-top: 25px;
+}
+.pdlink2{
+    padding-top: 10px;
+}
+.hobby_cards{
+    display: flex;
+    justify-content: space-between;
+}
+/* hobby end */
+
+/* contacts */
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-left: 219px;
+    padding-right: 219px;
+}
+.contacts_field{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 311px;
+    width: 1230px;
+    background-color: #E9F7FF;
+    border: solid 1px #0066FF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.25);
+}
+.contacts_items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+.contacts_title{
+    font-family: 'Montez', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.contacts_subtitle a{
+    color: #45556F;
+}
+.contacts_links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 148px;
+    padding-right: 148px;
+}
+.contacts_link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contacts_images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contacts_link_subtitle{
+    color: #45556F;
+    font-size: 15px;
+}
+.contacts_button{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contacts_btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0066FF;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* contacts  end */
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: #042E54;
+    height: 150px;
+    padding-left: 246px;
+    padding-right: 246px;
+    align-items: center;
+}
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+}
+.footer_items a{
+    color: #fff;
+}
+.footer_items a:hover{
+    color: #0066FF;
+}
+/* footer end */
+
+@media (max-width: 1800px){
+    .header{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .tagline{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .advantages{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .geolocation{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .speciality{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .hobby{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1600px){
+    .advantages{
+        align-items: center;
+    }
+    .advantages_cards{
+        justify-content: center;
+        gap: 20px;
+        width: 800px;
+        flex-wrap: wrap;
+    }
+    .speciality{
+        align-items: center;
+    }
+    .speciality_cards{
+        justify-content: center;
+        gap: 20px;
+        width: 800px;
+        flex-wrap: wrap;
+    }
+    .hobby{
+        align-items: center;
+    }
+    .hobby_cards{
+        justify-content: center;
+        gap: 20px;
+        width: 1000px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1300px){
+    .contacts_field{
+        width: 1000px;
+    }
+    .contacts_links{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer_items{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 1150px){
+    .contacts_links{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .contacts_field{
+        height: 100%;
+        width: 500px;
+    }
+    .contacts_images{
+        width: 32px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .hobby_cards{
+        width: 500px;
+    }
+    .geolocation{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+}
+@media(max-width: 979px){
+    .footer_items{
+        gap: 30px;
+    }
+    .header_navbar{
+        gap: 10px;
+    }
+}
+@media(max-width: 890px){
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tagline{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .advantages{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .geolocation{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .speciality{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hobby{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contacts{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 800px){
+    .footer{
+        height: 100%;
+    }
+    .footer_items{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+    .advantages_cards{
+        width: 500px;
+    }
+    .speciality_cards{
+        width: 500px;
+    }
+}
+@media(max-width: 740px){
+    .header_items{
+        align-items: center;
+        flex-direction: column;
+    }
+    .header_navbar{
+        padding-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tagline{
+        text-align: center;
+    }
+    .tagline_buttons{
+        justify-content: center;
+    }
+}
+@media (max-width:650px){
+    .advantages_card_title{
+        font-size: 15px;
+    }
+    .advantages_card_subtitle{
+        font-size: 12px;
+    }
+    .advantages_card{
+        width: 165px;
+    }
+    .speciality_card_title{
+        font-size: 15px;
+    }
+    .speciality_card_subtitle{
+        font-size: 12px;
+    }
+    .speciality_card{
+        width: 165px;
+    }
+}
+@media (max-width: 530px){
+    .contacts_field{
+        width: max-content;
+    }
+    .geolocation_map_title{
+        width: 300px;
+    }
+    .hobby_cards{
+        width: 100%;
+    }
+    .advantages_cards{
+        width: 100%;
+    }
+    .speciality_cards{
+        width: 100%;
+    }
+}
